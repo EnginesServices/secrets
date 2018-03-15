@@ -15,8 +15,17 @@
         "level": "alpha",
         "patch": 0
       }
-    }
+    },
+    "timestamp": "2018-03-15T15:24:51+11:00"
   },
   "software": {
+    "base": {
+      "name": "secrets",
+      "cardinal": "volnga",
+      "publisher_namespace": "secrets",
+      "type_path": "secrets",
+      "service_handle_field": "secret_name",
+      "deployment_type": "worker"
+    }
   }
 }
