@@ -22,7 +22,7 @@
         "label": "secrets"
       }
     },
-    "timestamp": "2018-03-15T15:30:26+11:00"
+    "timestamp": "2018-03-15T15:33:53+11:00"
   },
   "software": {
     "base": {
@@ -70,7 +70,7 @@
     },
     "consumer_params": [
       {
-        "name": "service_name",
+        "name": "secret_name",
         "value": "_Engines_Builder(engine_name)",
         "mandatory": true,
         "immutable": true,
@@ -82,6 +82,9 @@
       },
       {
         "name": "volume_src",
+        "value": "/var/lib/engines/secrets/_Engines_Builder(engine_name)/_Engines_Builder(engine_name)",
+        "mandatory": true,
+        "immutable": true,
         "input": {
           "type": "string",
           "label": "Volume source path"
@@ -89,7 +92,9 @@
       },
       {
         "name": "engine_path",
+        "value": "/home/.secrets/",
         "mandatory": true,
+        "immutable": true,
         "input": {
           "type": "string",
           "label": "Engine path"
@@ -99,20 +104,16 @@
         "name": "permissions",
         "value": "ro",
         "mandatory": true,
+        "immutable": true,
         "input": {
-          "type": "select",
-          "collection": {
-            "items": {
-              "ro": "Read only",
-              "rw": "Write access"
-            }
-          }
+          "type": "select"
         }
       },
       {
         "name": "user",
         "value": "_Engines_Builder(data_uid)",
         "mandatory": true,
+        "immutable": true,
         "input": {
           "type": "string",
           "label": "Owner"
@@ -122,6 +123,7 @@
         "name": "group",
         "value": "_Engines_Builder(data_gid)",
         "mandatory": true,
+        "immutable": true,
         "input": {
           "type": "string",
           "label": "Group"
