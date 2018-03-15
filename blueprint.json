@@ -16,11 +16,17 @@
         "patch": 0
       }
     },
-    "timestamp": "2018-03-15T15:27:43+11:00"
+    "software": {
+      "display": {
+        "title": "secrets",
+        "label": "secrets"
+      }
+    },
+    "timestamp": "2018-03-15T15:30:26+11:00"
   },
   "software": {
     "base": {
-      "name": "secrets",
+      "name": "volmgr",
       "cardinal": "volmgr",
       "publisher_namespace": "EnginesSystem",
       "type_path": "secrets",
