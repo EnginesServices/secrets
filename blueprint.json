@@ -22,7 +22,7 @@
         "label": "secrets"
       }
     },
-    "timestamp": "2018-03-15T15:33:53+11:00"
+    "timestamp": "2018-03-15T15:38:38+11:00"
   },
   "software": {
     "base": {
@@ -54,12 +54,8 @@
     ],
     "target_environment_variables": [
       {
-        "variable_name": "engine_path",
-        "environment_variable_name": "VOLDIR"
-      },
-      {
-        "variable_name": "service_name",
-        "environment_variable_name": "volume_name"
+        "variable_name": "secret_name",
+        "environment_variable_name": "secret_name"
       }
     ],
     "consumers": {
@@ -82,7 +78,7 @@
       },
       {
         "name": "volume_src",
-        "value": "/var/lib/engines/secrets/_Engines_Builder(engine_name)/_Engines_Builder(engine_name)",
+        "value": "/var/lib/engines/secrets/_Engines_Builder(engine_name)/_Engines_Builder(engine_name)/_Engines_Fields(secret_name)",
         "mandatory": true,
         "immutable": true,
         "input": {
@@ -92,7 +88,7 @@
       },
       {
         "name": "engine_path",
-        "value": "/home/.secrets/",
+        "value": "/home/.secrets/_Engines_Fields(secret_name)",
         "mandatory": true,
         "immutable": true,
         "input": {
