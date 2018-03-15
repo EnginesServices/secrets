@@ -22,7 +22,7 @@
         "label": "secrets"
       }
     },
-    "timestamp": "2018-03-15T15:41:44+11:00"
+    "timestamp": "2018-03-16T10:23:59+11:00"
   },
   "software": {
     "base": {
@@ -41,10 +41,10 @@
     },
     "disposition": {
       "persistent": true,
+      "immutable": true,
       "attach_post_build": true,
       "attach_requires_restart": true,
-      "shareable": true,
-      "consumer_exportable": true
+      "shareable": true
     },
     "constants": [
       {
