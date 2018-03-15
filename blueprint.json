@@ -22,7 +22,7 @@
         "label": "secrets"
       }
     },
-    "timestamp": "2018-03-15T15:38:38+11:00"
+    "timestamp": "2018-03-15T15:41:44+11:00"
   },
   "software": {
     "base": {
@@ -82,7 +82,7 @@
         "mandatory": true,
         "immutable": true,
         "input": {
-          "type": "string",
+          "type": "hidden",
           "label": "Volume source path"
         }
       },
@@ -92,7 +92,7 @@
         "mandatory": true,
         "immutable": true,
         "input": {
-          "type": "string",
+          "type": "hidden",
           "label": "Engine path"
         }
       },
@@ -102,7 +102,7 @@
         "mandatory": true,
         "immutable": true,
         "input": {
-          "type": "select"
+          "type": "hidden"
         }
       },
       {
@@ -111,7 +111,7 @@
         "mandatory": true,
         "immutable": true,
         "input": {
-          "type": "string",
+          "type": "hidden",
           "label": "Owner"
         }
       },
@@ -121,8 +121,17 @@
         "mandatory": true,
         "immutable": true,
         "input": {
-          "type": "string",
+          "type": "hidden",
           "label": "Group"
+        }
+      },
+      {
+        "name": "is_secret",
+        "value": "true",
+        "mandatory": true,
+        "immutable": true,
+        "input": {
+          "type": "hidden"
         }
       }
     ]
