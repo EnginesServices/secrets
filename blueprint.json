@@ -16,14 +16,15 @@
         "patch": 0
       }
     },
-    "timestamp": "2017-11-24T10:01:05+11:00"
+    "timestamp": "2018-03-15T15:27:43+11:00"
   },
   "software": {
     "base": {
-      "name": "volmgr",
+      "name": "secrets",
+      "cardinal": "volmgr",
       "publisher_namespace": "EnginesSystem",
-      "type_path": "filesystem/local/filesystem",
-      "service_handle_field": "service_name",
+      "type_path": "secrets",
+      "service_handle_field": "secret_name",
       "parent_image": "engines/servicebase",
       "deployment_type": "worker",
       "memory": {
