@@ -22,7 +22,7 @@
         "label": "secrets"
       }
     },
-    "timestamp": "2018-03-16T14:44:51+11:00"
+    "timestamp": "2018-03-16T15:14:39+11:00"
   },
   "software": {
     "base": {
@@ -78,7 +78,7 @@
       },
       {
         "name": "volume_src",
-        "value": "/var/lib/engines/secrets/_Engines_Builder(engine_name)/_Engines_Builder(engine_name)/_Engines_Fields(secret_name)",
+        "value": "/var/lib/engines/secrets/_Engines_Builder(ctype)/_Engines_Builder(engine_name)/_Engines_Fields(secret_name)",
         "mandatory": true,
         "immutable": true,
         "ask_at_build_time": true,
