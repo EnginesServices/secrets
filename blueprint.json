@@ -22,7 +22,7 @@
         "label": "secrets"
       }
     },
-    "timestamp": "2018-03-16T10:23:59+11:00"
+    "timestamp": "2018-03-16T14:44:51+11:00"
   },
   "software": {
     "base": {
@@ -81,6 +81,7 @@
         "value": "/var/lib/engines/secrets/_Engines_Builder(engine_name)/_Engines_Builder(engine_name)/_Engines_Fields(secret_name)",
         "mandatory": true,
         "immutable": true,
+        "ask_at_build_time": true,
         "input": {
           "type": "hidden",
           "label": "Volume source path"
@@ -91,6 +92,7 @@
         "value": "/home/.secrets/_Engines_Fields(secret_name)",
         "mandatory": true,
         "immutable": true,
+        "ask_at_build_time": true,
         "input": {
           "type": "hidden",
           "label": "Engine path"
@@ -101,6 +103,7 @@
         "value": "ro",
         "mandatory": true,
         "immutable": true,
+        "ask_at_build_time": true,
         "input": {
           "type": "hidden"
         }
@@ -110,6 +113,7 @@
         "value": "_Engines_Builder(data_uid)",
         "mandatory": true,
         "immutable": true,
+        "ask_at_build_time": true,
         "input": {
           "type": "hidden",
           "label": "Owner"
@@ -120,6 +124,7 @@
         "value": "_Engines_Builder(data_gid)",
         "mandatory": true,
         "immutable": true,
+        "ask_at_build_time": true,
         "input": {
           "type": "hidden",
           "label": "Group"
@@ -130,6 +135,7 @@
         "value": "true",
         "mandatory": true,
         "immutable": true,
+        "ask_at_build_time": true,
         "input": {
           "type": "hidden"
         }
