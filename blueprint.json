@@ -22,7 +22,7 @@
         "label": "secrets"
       }
     },
-    "timestamp": "2018-03-16T15:54:58+11:00"
+    "timestamp": "2018-03-19T11:46:56+11:00"
   },
   "software": {
     "base": {
@@ -74,60 +74,6 @@
         "input": {
           "type": "string",
           "label": "Service tag name"
-        }
-      },
-      {
-        "name": "volume_src",
-        "value": "/var/lib/engines/secrets/_Engines_Builder(ctype)s/_Engines_Builder(engine_name)/_Engines_Fields(secret_name)",
-        "mandatory": true,
-        "immutable": true,
-        "ask_at_build_time": true,
-        "input": {
-          "type": "hidden",
-          "label": "Volume source path"
-        }
-      },
-      {
-        "name": "engine_path",
-        "value": "/home/.secrets/_Engines_Fields(secret_name)",
-        "mandatory": true,
-        "immutable": true,
-        "ask_at_build_time": true,
-        "input": {
-          "type": "hidden",
-          "label": "Engine path"
-        }
-      },
-      {
-        "name": "permissions",
-        "value": "ro",
-        "mandatory": true,
-        "immutable": true,
-        "ask_at_build_time": true,
-        "input": {
-          "type": "hidden"
-        }
-      },
-      {
-        "name": "user",
-        "value": "_Engines_Builder(data_uid)",
-        "mandatory": true,
-        "immutable": true,
-        "ask_at_build_time": true,
-        "input": {
-          "type": "hidden",
-          "label": "Owner"
-        }
-      },
-      {
-        "name": "group",
-        "value": "_Engines_Builder(data_gid)",
-        "mandatory": true,
-        "immutable": true,
-        "ask_at_build_time": true,
-        "input": {
-          "type": "hidden",
-          "label": "Group"
         }
       },
       {
