@@ -22,7 +22,7 @@
         "label": "secrets"
       }
     },
-    "timestamp": "2018-03-19T12:37:17+11:00"
+    "timestamp": "2018-03-19T12:39:21+11:00"
   },
   "software": {
     "base": {
@@ -84,6 +84,15 @@
         "ask_at_build_time": true,
         "input": {
           "type": "hidden"
+        }
+      },
+      {
+        "name": "donothing",
+        "value": "nothing",
+        "mandatory": true,
+        "ask_at_build_time": true,
+        "input": {
+          "type": "string"
         }
       }
     ]
