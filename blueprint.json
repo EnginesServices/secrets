@@ -22,7 +22,7 @@
         "label": "secrets"
       }
     },
-    "timestamp": "2018-03-21T08:26:28+11:00"
+    "timestamp": "2018-03-21T10:25:53+11:00"
   },
   "software": {
     "base": {
@@ -84,15 +84,6 @@
         "ask_at_build_time": true,
         "input": {
           "type": "hidden"
-        }
-      },
-      {
-        "name": "kludge",
-        "value": "t",
-        "mandatory": true,
-        "ask_at_build_time": true,
-        "input": {
-          "type": "boolean"
         }
       }
     ]
