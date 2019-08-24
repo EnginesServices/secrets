@@ -22,7 +22,7 @@
         "label": "secrets"
       }
     },
-    "timestamp": "2019-08-24T17:05:56+10:00"
+    "timestamp": "2019-08-24T17:09:34+10:00"
   },
   "software": {
     "base": {
@@ -89,8 +89,8 @@
         }
       },
       {
-        "name": "lenght",
-        "value": "12",
+        "name": "length",
+        "value": "16",
         "immutable": true,
         "ask_at_build_time": true,
         "input": {
